@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+.body{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+
+}
+
+
+.h6{
+    font-size: 24px;
+}
+
+
+
+
+
+*,
+*:before,
+*:after{
+    box-sizing:border-box;
+}
+
+
+/*Container*/
+
+.container{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+
+
+
+/*Header*/
+
+.header{
+background-attachment: fixed;
+
+}
+
+.header_inner{
+    display:flex;
+    justify-content: left;
+    padding: 0 35px;
+    align-items: center;
+}
+
+.header_logo{
+    z-index: 2;
+ margin-right: 82px;
+    margin-top:20px;
+    margin-left: 65px;
+
+}
+
+
+
+
+/*Nav*/
+
+.nav{
+    position: absolute;
+    color: #060606;
+    font-family: Montserrat, sans-serif;
+    display:flex;
+    font-size:18px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+    margin-left: 306px;
+    margin-top:-77px;
+}
+
+.nav_link{
+
+    z-index: 2;
+    position: relative;
+    margin-top: 77px;
+    margin-right: 50px;
+    color: #060606;
+
+}
+
+.nav_link:first-child{
+    margin-left:0;
+
+}
+
+.nav_link:hover{
+    transition: opacity .1s
+    linear;
+}
+
+
+/*Ripped images*/
+.ripped{
+    z-index: 1000;
+    color:black;
+    position: absolute;
+    width: 1367px;
+    height: 119.93px;
+
+
+}
+
+
+.ripped2{
+    z-index: 1000;
+    color:black;
+    position: absolute;
+    width: 1379px;
+    height: 55px;
+    margin-top:380px;
+    margin-left: -12px;
+}
+
+.ripped3{
+    z-index: 1000;
+    color:black;
+    position: absolute;
+    width: 1367px;
+    height: 55px;
+    margin-top:-23px;
+    transform: rotate(-180deg);
+}
+
+/*article*/
+
+.article{
+    display: flex;
+    position: absolute;
+    width: 654px;
+    height: 114px;
+    margin-left: 359px;
+    margin-top: 126px;
+
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #2F4858;
+}
+/*main photo*/
+.photo{
+    width: 1374px;
+    height: 383px;
+}
+
+
+/*gallery*/
+.row{
+    margin-top: 409px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 1435px;
+}
+
+.column{
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+
+
+.zanda{
+    margin-right: 8px;
+}
+
+.anda{
+    position: absolute;
+    margin-left: 972px;
+}
+
+/*Article_and_Button*/
+
+.features{
+    display: flex;
+    margin-top: 150px;
+    margin-left:550px;
+
+}
+
+.features-item{
+
+
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    font-size: 24pt;
+    line-height: 36px;
+    text-align: center;
+    margin-right: 84px;
+
+    color: #2F4858;
+}
+
+.font-button{
+    margin-top:50px;
+}
+
+
+.button{
+    margin-top: 4px;
+    font-size: 18pt;
+    margin-left: -200px;
+    text-align: center;
+    position: absolute;
+    font-family: Montserrat,sans-serif;
+    -ms-transform: translate(-50%, -50%);
+    background-color: #FFA800;
+    color: #FFFFFF;
+    border:none;
+}
+
+
+
+.feedback {
+    text-transform: uppercase;
+    margin-top:150px;
+    text-align:center;
+    margin-left:274px;
+    font-family: Oswald,sans-serif;
+    font-size:24pt;
+    color: #2F4858;
+}
+
+/*Forms*/
+
+.form-group{
+
+    font-size:18px;
+    margin-left: 270px;
+
+
+}
+
+.col-lg-6{
+    color: #495C83 !important;
+    width: 296px;
+    height: 43px;
+    padding-right: 20px;
+}
+
+.col-lg-12{
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+
+}
+
+.form-outline{
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-left:285px;
+    width: 842px;
+    height: 232px;
+
+
+}
+
+
+
+
+
+textarea {
+    resize:none;
+    letter-spacing: -0.015em;
+    color: #2F4858;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.help-block{
+    width: 612px;
+    height: 25px;
+    left: 377px;
+    margin-top: 15px;
+
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2F4858;
+}
+
+.checkbox{
+    width: 572px;
+    height: 39px;
+    margin-top: 25px;
+    margin-right: 21px;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #2F4858;
+}
+
+
+
+.button2{
+    margin-top: 4px;
+    font-size: 18pt;
+    margin-left: -155px;
+    text-align: center;
+    position: absolute;
+    font-family: Montserrat,sans-serif;
+    -ms-transform: translate(-50%, -50%);
+    background-color: #FFA800;
+    color: #FFFFFF;
+    border:none;
+}
+
+.font-button2{
+    margin-top:50px;
+    margin-left: 300px;
+    margin-bottom: 150px;
+}
+
+/*Sponsors*/
+
+
+.sponsored{
+
+
+    margin-top: 600px;
+    margin-left: 250px;
+}
+
+.atbalstitaji{
+    position: absolute;
+    z-index: 1000;
+    font-family: Oswald,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 486px;
+    margin-top: 100px;
+
+    color: #2F4858;
+}
+
+
+
+.logo{
+    width: 1366px;
+    height: 481.59px;
+    margin-left: -100px;
+
+}
+
+
+.sponsoredby{
+
+    position: absolute;
+    margin-top:-200px;
+    margin-right: 85px;
+}
+
+
+.getlogo{
+    margin-right: 85px;
+    margin-left: 35px;
+}
+
+
+.sem{
+    margin-right: 85px;
+}
+
+.citybee{
+    margin-right: 85px;
+}
+
+
+/*Footer*/
+
+
+.font-image{
+    margin-top: -50px;
+    margin-left: 408px;
+
+}
+
+
+
+.text-reset{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+    color: #FFFFFF;
+
+}
+
+
+.container ,.text-center ,.text-md-start ,.mt-5{
+    font-family: Montserrat,sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.gold{
+    margin-left: 19px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.text-center{
+    margin-left: 85px;
+
+}
+.text-lg-start{
+    margin-top:-250px;
+}
+.bg-light{
+    margin-top:-250px;
+}
+.text-muted{
+    margin-top:-250px;
+}
+
+.text-reset{
+
+}
+
+
+
+.col-md-3{
+    text-align: left;
+}
+
+.col-md-4{
+    text-align: right;
+}
+
+
+.pt{
+    font-size: 14px;
+}
+
+.fa-instagram{
+    margin-top:24px;
+}
+
+.private{
+    margin-top:38px;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+}
+
+.facebook{
+    margin-right:29px;
+}
+
+
