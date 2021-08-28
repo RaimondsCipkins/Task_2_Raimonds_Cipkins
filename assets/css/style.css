@@ -381,6 +381,7 @@ margin-left: 168px;
 
 
 .getlogo{
+    z-index: 1000;
     width: auto;
     margin-right: 85px;
     margin-left: 35px;
@@ -388,11 +389,13 @@ margin-left: 168px;
 
 
 .sem{
+    z-index: 1000;
     width: auto;
     margin-right: 85px;
 }
 
 .citybee{
+    z-index: 1000;
     width: auto;
     margin-right: 85px;
 }
