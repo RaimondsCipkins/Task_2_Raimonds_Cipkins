@@ -357,31 +357,32 @@ textarea {
 
 .logo{
     width: 1366px;
-    height: 481.59px;
+    height: 482px;
     margin-left: -100px;
 
 }
 
 
 .sponsoredby{
-
-    position: absolute;
+margin-left: 168px;
     margin-top:-200px;
-    margin-right: 85px;
 }
 
 
 .getlogo{
+    width: auto;
     margin-right: 85px;
     margin-left: 35px;
 }
 
 
 .sem{
+    width: auto;
     margin-right: 85px;
 }
 
 .citybee{
+    width: auto;
     margin-right: 85px;
 }
 
@@ -390,12 +391,11 @@ textarea {
 
 
 .font-image{
-    margin-top: -50px;
-    margin-left: 408px;
+    display: flex;
+    margin-top: -33px;
+    margin-left:23px;
 
 }
-
-
 
 .text-reset{
     font-family: Montserrat,sans-serif;
@@ -405,11 +405,9 @@ textarea {
     line-height: 22px;
     margin-top: 10px;
     color: #FFFFFF;
-
 }
 
-
-.container ,.text-center ,.text-md-start ,.mt-5{
+.text-center ,.text-md-start ,.mt-5{
     font-family: Montserrat,sans-serif;
     color: #FFFFFF;
     font-style: normal;
@@ -476,6 +474,13 @@ textarea {
 
 .facebook{
     margin-right:29px;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
 }
 
 
