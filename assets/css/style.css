@@ -31,6 +31,13 @@
     margin: 0 auto;
 }
 
+.container2{
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+    display: flex;
+}
+
 
 
 
@@ -188,7 +195,6 @@ background-attachment: fixed;
 }
 
 .features-item{
-
 
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -445,13 +451,6 @@ margin-left: 168px;
 
 
 
-.col-md-3{
-    text-align: left;
-}
-
-.col-md-4{
-    text-align: right;
-}
 
 
 .pt{
@@ -476,7 +475,8 @@ margin-left: 168px;
     margin-right:29px;
 }
 
-.footer{
+
+.flexible{
     width: 100%;
     max-width: 1366px;
     margin: 0 auto;
