@@ -227,10 +227,11 @@ background-attachment: fixed;
 
 
 .feedback {
+    display: flex;
     text-transform: uppercase;
     margin-top:150px;
     text-align:center;
-    margin-left:274px;
+    margin-left:550px;
     font-family: Oswald,sans-serif;
     font-size:24pt;
     color: #2F4858;
