@@ -1,6 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.your_div_class{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 
 @viewport {
     zoom: 1.0;
