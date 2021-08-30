@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
+
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
 .body{
     font-family: Montserrat, sans-serif;
     font-size: 18px;
@@ -36,6 +43,7 @@
     max-width: 1366px;
     margin: 0 auto;
     display: flex;
+    position: absolute;
 }
 
 
@@ -354,7 +362,7 @@ textarea {
 
 
 .button2{
-
+position: absolute;
     margin-top: 10px;
     font-size: 24px;
     margin-left: -130px;
@@ -367,7 +375,7 @@ textarea {
 }
 
 .font-button2{
-
+    position: absolute;
     margin-top:70px;
     margin-left: 600px;
     margin-bottom: 150px;
@@ -382,8 +390,10 @@ textarea {
 
 
 .sponsored{
+    position: absolute;
     display: flex;
     margin-left: 250px;
+    margin-top: 260px;
 }
 
 .atbalstitaji{
@@ -453,9 +463,12 @@ margin-left: 110px;
 
 
 .font-image{
-    margin-top: -33px;
-    margin-left:138px;
+    margin-top: 705px;
+    margin-left:165px;
+}
 
+.flexible{
+    margin-top: -250px;
 }
 
 .text-reset{
@@ -464,78 +477,67 @@ margin-left: 110px;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-    margin-top: 10px;
+
+
     color: #FFFFFF;
+
 }
 
-.text-center ,.text-md-start ,.mt-5{
-    font-family: Montserrat,sans-serif;
-    color: #FFFFFF;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-}
 
 .gold{
-    margin-top: -35px;
-    margin-left: -460px;
-    margin-bottom: 25px;
+    margin-top:-50px;
+    margin-left: -170px;
 }
-
-
-
-
-
-.text-center{
-    margin-left: 85px;
-
-}
-.text-lg-start{
-    margin-top:-250px;
-}
-
-
-
-.text-reset{
-
-}
-
-
-
-
 
 .pt{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
-    margin-top: 14px;
-    margin-left: -500px;
+    line-height: 17px;
+    margin-top:60px;
+    margin-left: -180px;
+
+    color: #FFFFFF;
+
+}
+
+
+.text-uppercase{
+    margin-top:-30px;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #FFFFFF;
+}
+
+.fas{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+}
+
+.col-md-2{
+    text-align: left;
+    margin-left: -120px;
+
+
 }
 
 .fa-instagram{
     margin-top:24px;
 }
 
-.private{
-    margin-top:38px;
-    font-family: Montserrat,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    text-align: right;
-}
 
 .facebook{
     margin-right:29px;
 }
-
-
-.flexible{
-    width: 100%;
-    max-width: 1366px;
-    margin: 0 auto;
-    display: flex;
-    margin-left:70px;
-}
-
-
